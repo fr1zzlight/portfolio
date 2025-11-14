@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АНАТОЛИЙ ТОРБОВ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!-- === БЛОК: ВВЕДЕНИЕ === -->
+    <section class="intro">
+        <div class="container">
+            <div class="intro-content">
+                <div class="intro-text">
+                    <div class="title-group">
+                        <h1>Я Анатолий Торбов</h1>
+                        <h2 class="subtitle">Реализую твою идею с 0!</h2>
+                    </div>
+                    <p>Опыт в цикле создания личного бренда  более двух лет! Я создаю продающий маркетинг, контент и дизайн, которые работают <strong>под ключ</strong>.</p>
+                    <p class="highlight">Хочешь чтобы твой бренд <em>заметили</em>, <em>полюбили</em> и <em>платили</em>? Я сделаю это за тебя</p>
+                    <a href="#contact" class="btn-primary">Оставить заявку</a>
+                </div>
+                <div class="intro-image">
+                    <img src="img/anatoliy.jpg" alt="Анатолий Торбов - маркетолог и дизайнер">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- === БЛОК: УСЛУГИ === -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Что я реализую для тебя</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Видеомонтаж</h3>
+                    <p>Монтаж, цветокоррекция, звук, монтаж под трек, SFX, анимация титров всё от идеи до финального ролика.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Дизайн СКОРО</h3>
+                    <p>Логотип, фирменный стиль, обложки, превью, шаблоны для сторис и презентаций гармонично и в одном стиле.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Веб-разработка СКОРО</h3>
+                    <p>Сайты-визитки, лендинги, промо с анимациями и мобильной адаптацией.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- === БЛОК: ПОРТФОЛИО === -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Портфолио</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <video class="portfolio-video" muted loop autoplay>
+                        <source src="video/reel-main.mp4" type="video/mp4">
+                        Ваш браузер не поддерживает видео.
+                    </video>
+                    <div class="portfolio-overlay">
+                        <h3>Видеомонтаж</h3>
+                        <p>Ролик для личного бренда цвет, динамика, SFX</p>
+                        <a href="#contact" class="btn-small">Заказать</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <img src="img/work-branding.jpg" alt="Бренд-дизайн — логотип и стиль">
+                    <div class="portfolio-overlay">
+                        <h3>Бренд-дизайн</h3>
+                        <p>Фирменный стиль и обложки</p>
+                        <a href="#contact" class="btn-small">Заказать</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <img src="img/work-website.jpg" alt="Веб-сайт — лендинг">
+                    <div class="portfolio-overlay">
+                        <h3>Веб-разработка</h3>
+                        <p>Сайт-визитка для эксперта</p>
+                        <a href="#contact" class="btn-small">Заказать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- === БЛОК: ФОРМА ЗАЯВКИ === -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Оставить заявку</h2>
+            <p class="contact-subtitle">Расскажите о своей идее и я свяжусь в течение 24 часов</p>
+            <form action="https://formspree.io/f/ваш-id" method="POST" class="contact-form">
+                <div class="form-group">
+                    <input type="text" name="name" id="name" required>
+                    <label for="name">Ваше имя</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" id="email" required>
+                    <label for="email">Email для связи</label>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" id="message" rows="5" required></textarea>
+                    <label for="message">Опишите ваш проект</label>
+                </div>
+                <button type="submit" class="btn-primary">Отправить заявку</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
